@@ -19,15 +19,18 @@ body {
 
 .start {
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
   font-family: 'Press Start 2P', cursive;
   border: 5px solid black;
-  width: 250px;
+  width: 450px;
   height: 75px;
   color: #FFFF;
   border-radius: 20%;
 }
 
+.pattern {
+  background-color: aquamarine;
+}
 .btn {
   margin: 25px;
   display: inline-block;
@@ -64,4 +67,5 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+
 }
